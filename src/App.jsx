@@ -1,4 +1,5 @@
 import About from "./components/about/About";
+import ContactMe from "./components/contactMe/ContactMe";
 import Intro from "./components/intro/Intro";
 import List from "./components/list/List";
 
@@ -7,6 +8,7 @@ const App = () => {
     <Intro/>
     <About/>
     <List/>
+    <ContactMe/>
   </div>;
 };
 

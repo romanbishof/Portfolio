@@ -1,5 +1,4 @@
 import React from 'react'
-import Me from "../../img/me-r.png"
 import "./intro.css"
 
 export default function Intro() {
@@ -23,7 +22,6 @@ export default function Intro() {
             </div>
             <div className="intro-right">
                 <div className="intro-bg"></div>
-                {/* <img src={Me} alt="" className="intro-img"/> */}
             </div>
         </div>
     )

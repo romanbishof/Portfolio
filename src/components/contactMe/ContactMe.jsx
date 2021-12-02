@@ -55,7 +55,7 @@ const ContactMe = () => {
                 </div>
                 <div className="contactMe-right">
                     <p className="contactMe-desc">
-                        <b>Want to hire me? </b> 
+                        <b>Whant to chat? </b> 
                         Send me email and let's chat, or contact me directly.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>

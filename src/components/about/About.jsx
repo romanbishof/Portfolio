@@ -25,7 +25,7 @@ const About = () => {
                 </p>
 
                 <p className="about-cv">
-                    Get knowing me better - <a href={CV} className="cv" target="_blank">My resume</a>
+                    Get knowing me better - <a href={CV} className="cv" target="_blank" rel="noopener">My resume</a>
                 </p>
                 
             </div>

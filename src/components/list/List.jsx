@@ -9,8 +9,7 @@ const List = () => {
             <div className="list-text">
                 <h1 className="list-title">Projects</h1>
                 <p className="list-desc">
-                    Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Natus totam laudantium.
+                    Here are a few of my projects I've worked on recently.
                 </p>
             </div>
             <div className="list-list">

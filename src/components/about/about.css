@@ -47,6 +47,20 @@
 }
 .about-desc{
     font-weight: 300;
+    line-height: 25px;
+
+}
+
+.about-cv{
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.cv{
+    text-decoration: none;
+    font-weight: 700;
+    color: #59b256;
 }
 
 @media screen and (max-width: 480px){

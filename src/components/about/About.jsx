@@ -1,5 +1,6 @@
 import React from 'react';
 import "./about.css"
+import CV from "../../CV/myCV.pdf"
 const About = () => {
     return (
         <div className="about">
@@ -14,10 +15,17 @@ const About = () => {
             <div className="about-right">
                 <h1 className="about-title">About Me</h1>
                 <p className="about-sub">
-                    sub tittle - somthing somthing somthing somthing somthing 
+                    My hobby is my profession
                 </p>
                 <p className="about-desc">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, beatae nostrum voluptate deleniti ut, nulla eaque, quia natus vero mollitia incidunt accusamus voluptates itaque veniam! Aspernatur numquam nostrum consequuntur aliquam?
+                    I'm Junior Full stack web developer, with passion for creating full stack websites,<br />
+                    working on making them responsive, dynamic, intuitive and well design. <br />
+                    I met the world of code development during my BSc of electronics engineering and <br />
+                    got so passionate about it, that I have decided to switch my career to my hobby. 
+                </p>
+
+                <p className="about-cv">
+                    Get knowing me better - <a href={CV} className="cv" target="_blank">My resume</a>
                 </p>
                 
             </div>

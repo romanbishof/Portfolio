@@ -82,17 +82,14 @@ button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px) {
+    
     .contactMe-wrapper{
         flex-direction: column;
     }
-
-    .contactMe-wrapper{
-        padding: 0px 50px;
-    }
-
+    
     .contactMe-title{
-        font-size: 30px;
+        font-size: 44px;
     }
 
     .contactMe-info-item{
@@ -116,5 +113,14 @@ button{
     button{
         margin-top: 10px;
     }
+
+}
+
+@media screen and (max-width: 480px){
+    
+    .contactMe-title{
+        font-size: 30px;
+    }
+
 
 }

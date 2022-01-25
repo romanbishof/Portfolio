@@ -31,6 +31,10 @@
         padding: 10px;
     }
 
+    .list span{
+        margin-top: 14px;
+    }
+
     .list-text{
         width: 100%;
     }
@@ -40,8 +44,6 @@
     }
 
     .list-list{
-        flex-direction: column;
         justify-content: center;
     }
-    
 }

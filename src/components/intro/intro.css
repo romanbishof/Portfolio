@@ -90,8 +90,18 @@
     }
 
     .intro-disc{
+        margin-top: 40px;
+    }
+
+    .intro-bg{
+        width: 100%;
+        height: 70%;
+    }
+
+    .intro-title-wrapper{
         display: none;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -99,4 +109,9 @@
         padding: 25px;
         height: 50%;
     }
+
+    .intro-title-item{
+        font-size: 21px;
+    }
 }
+

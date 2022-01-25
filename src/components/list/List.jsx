@@ -12,9 +12,13 @@ const List = () => {
                     Here are a few of my projects I've worked on recently.
                 </p>
             </div>
+                <span>Click on image to go to Git repository {/* or the link below to go directly to the web page */}</span>
             <div className="list-list">
                 {products.map((item) => (
-                    <Product key={item.id} img={item.img} link={item.link}/>
+                    <div>
+                        <Product key={item.id} img={item.img} linkGit={item.linkGit} desc={item.desc} link={item.link}/>
+                    </div>
+
                 ))}
                 
             </div>

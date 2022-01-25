@@ -15,7 +15,7 @@ export default function Intro() {
                         </div>
                     </div>
                     <p className="intro-disc">
-                        Junior designer and developer of websites and web services via modern tools and technologies. 
+                        Junior developer and designer of websites and web services via modern tools and technologies. 
                     </p>
                     
                 </div>

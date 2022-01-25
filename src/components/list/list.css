@@ -38,4 +38,10 @@
     .list-desc{
         display: none;
     }
+
+    .list-list{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
